@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Desenvolvimento web: Cliente - Semana 11</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <nav class="cabecalho">
+  
+    <ul class="menu-l">
+      <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+      <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+      <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+      <div class="dropdown">
+        <button class="dropbtn">CURSOS</button>
+        <div class="dropdown-content">
+          <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+          <a href="#">Engenharia de Produção</a>
+          <a href="#">Gestão em Tecnologia da Informação</a>
+          <a href="#">Letras</a>
+          <a href="#">Gestão Pública</a>
+        </div>
+      </div>
+        
+      <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+    </ul>
+      
+      <div class="menu-d">
+        <ul class="menu-l">
+      <li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li>
+      </ul>
+        
+    </div> 
+  
+  </nav>
+  
+  <figure class="logo">
+    <img src="Logo.jpg" alt="Logo IFSP"/>
+  </figure> 
+
+  <!--Cabeçalho até aqui-->
+
+  <div class="infos">
+
+    <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <img src="A.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="B.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="C.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <h2>Conheça os desafios de inovação</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=qrplXbUvVbLGB_-I" 
+          title="Desafio de Inovação: webinar com executivos da empresa Sem Parar e representantes da Inova IFSP" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen></iframe>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    
+    <div class="grid-container">
+      <figure class="grid-item">
+        <img src="eleicoes.jpg" alt="Eleições" class="img-grid"/>
+        <figcaption class="grid-leg">
+          <h4>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</h4>
+          <p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus</p>
+      </figure>
+
+      <figure class="grid-item">
+        <img src="snct.jpg" alt="Radar" class="img-grid"/>
+        <figcaption class="grid-leg">
+          <h4>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</h4>
+          <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+      </figure>
+
+      <figure class="grid-item">
+        <img src="residencia.png" alt="Residência" class="img-grid"/>
+        <figcaption class="grid-leg">
+          <h4>IFSP oferece bolsa aos voluntários da Residência Pedagógica</h4>
+          <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+      </figure>
+
+      <figure class="grid-item">
+        <img src="maratona.jpeg" alt="Maratona" class="img-grid"/>
+        <figcaption class="grid-leg">
+          <h4>Inscrições abertas para a III Maratona InterIF</h4>
+          <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro</p>
+      </figure>
+
+    </div>
+    
+    <h2>Conheça os desafios de inovação</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=qrplXbUvVbLGB_-I" 
+      title="Desafio de Inovação: webinar com executivos da empresa Sem Parar e representantes da Inova IFSP" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen></iframe>
+  </div>
+
+  <div class="rodapé">
+    <br>
+    <a href="#top">
+      <img src="MoveTop.png" alt="Ícone ir para início" width="40"/>
+    </a>
+
+    <a href="https://www.facebook.com/ifsppirituba">
+      <img src="facebook.png" alt="Ícone Facebook" width="40"/>
+    </a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

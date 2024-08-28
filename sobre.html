@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Desenvolvimento web: Cliente - Semana 11</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Utilizando o React-->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./sobre.js" type="text/babel"></script>
+</head>
+
+<body>
+
+  <nav class="cabecalho">
+    <ul class="menu-l">
+      <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+      <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+      <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+      <div class="dropdown">
+        <button class="dropbtn">CURSOS</button>
+        <div class="dropdown-content">
+          <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+          <a href="#">Engenharia de Produção</a>
+          <a href="#">Gestão em Tecnologia da Informação</a>
+          <a href="#">Letras</a>
+          <a href="#">Gestão Pública</a>
+        </div>
+      </div>
+
+      <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+    </ul>
+
+    <div class="menu-d">
+      <ul class="menu-l">
+        <li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <figure class="logo">
+    <img src="Logo.jpg" alt="Logo IFSP" />
+  </figure>
+
+  <!-- Utilizando o React-->
+  <div id="root"></div>
+
+  <div class="rodapé">
+    <br>
+    <a href="https://www.facebook.com/ifsppirituba">
+      <img src="facebook.png" alt="Ícone Facebook" width="40" />
+    </a>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+  </div>
+
+</body>
+
+</html>

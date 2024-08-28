@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Desenvolvimento web: Cliente - Semana 11</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="cabecalho">
+
+    <ul class="menu-l">
+      <li class="item"><a href="index.html" class="menu-btn">HOME</a></li>
+      <li class="item"><a href="eventos.html" class="menu-btn">EVENTOS</a></li>
+      <li class="item"><a href="contato.html" class="menu-btn">CONTATO</a></li>
+
+      <div class="dropdown">
+        <button class="dropbtn">CURSOS</button>
+        <div class="dropdown-content">
+          <a href="ads.html">Análise e Desenvolvimeto de Sistemas</a>
+          <a href="#">Engenharia de Produção</a>
+          <a href="#">Gestão em Tecnologia da Informação</a>
+          <a href="#">Letras</a>
+          <a href="#">Gestão Pública</a>
+        </div>
+      </div>
+
+      <li class="item"><a href="entrar.html" class="menu-btn">ENTRAR</a></li>
+    </ul>
+
+      <div class="menu-d">
+        <ul class="menu-l">
+      <li class="item"><a href="sobre.html" class="menu-btn">SOBRE</a></li>
+      </ul>
+
+    </div> 
+
+  </nav>
+
+  <figure class="logo">
+    <img src="Logo.jpg" alt="Logo IFSP"/>
+  </figure> 
+
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="card-body text-center">
+      <img src="ifsp.png" alt="Logo IFSP" class="mb-4" width="80">
+      <h1 class="h2 mb-3 font-weight-normal">Faça login</h1>
+
+      <form>
+        <div class="form-group">
+          <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required>
+        </div>
+        <div class="form-group">
+          <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="remember-me">
+          <label class="form-check-label" for="remember-me">Lembrar de mim</label>
+        </div>
+        <a href="#" class="d-block mt-3">Esqueci a senha</a>
+        <button class="btn btn-primary btn-block" type="submit">Login</button>
+      </form>
+      
+      <div class="mt-4 text-muted">&copy; 2020</div>
+    </div>
+  </div>
+
+  <div class="rodapé">
+    <br>
+    <a href="https://www.facebook.com/ifsppirituba">
+      <img src="facebook.png" alt="Ícone Facebook" width="40"/>
+    </a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
